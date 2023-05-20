@@ -1,0 +1,98 @@
+name: tunisiacleanup
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.3 <3.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.18.1
+
+
+
+  cupertino_icons: ^1.0.2
+  camera: ^0.10.3+2
+  path_provider: ^2.0.14
+  image_picker: ^0.8.7+4
+  animate_do: any
+  smooth_page_indicator: ^1.1.0
+  hexcolor: ^3.0.1
+  font_awesome_flutter: ^10.4.0
+  otp_text_field: ^1.1.3
+  flutter_otp_text_field: ^1.1.1
+  google_fonts: ^4.0.3
+  line_awesome_flutter: ^2.0.0
+  get: ^4.6.5
+  flutter_feather_icons: ^2.0.0+1
+  gestures: ^1.0.0
+  awesome_snackbar_content: ^0.1.3
+  circular_menu: ^2.0.1
+  spincircle_bottom_bar: ^2.0.0
+  flutter_svg: ^2.0.5
+  flutter_slidable: ^0.6.0
+  bar_chart: ^1.0.0+1
+  fl_chart: ^0.62.0
+  pie_chart: ^5.3.2
+  animated_number: ^1.0.2
+  google_maps_flutter: ^2.2.0
+  geolocator: ^9.0.2
+  flutter_google_places: ^0.3.0
+  http: ^0.13.4
+  firebase_core: ^2.11.0
+  firebase_auth: ^4.2.2
+  cloud_firestore: ^4.6.0
+  firebase_storage: ^11.2.0
+  path: ^1.8.3
+  firebase_messaging: ^14.6.0
+  geocoding: ^2.1.0
+  image: ^4.0.17
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/memoji/
+    - assets/images/page_indicator/
+    - assets/images/login/
+    - assets/arrow.png
+    - assets/dechets4.png
+    - assets/dechets.png
+    - assets/dechets3.png
+    - assets/map.png
+    - assets/recent.png
+    - assets/search.png
+    - assets/images/profile.png
+
+  fonts:
+    - family: Plante
+      fonts:
+        - asset: assets/fonts/Plante.ttf

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "395749114288",
+    "project_id": "cleanup-96db1",
+    "storage_bucket": "cleanup-96db1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:395749114288:android:067e9b79b34eb2f6d81675",
+        "android_client_info": {
+          "package_name": "com.example.tunisiacleanup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "395749114288-u573s8iigrhv08aqqm3rtcpbdkvjd41t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYG9z_ONvVTwbhipEIr7EBY1cie_f4IaE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "395749114288-u573s8iigrhv08aqqm3rtcpbdkvjd41t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
